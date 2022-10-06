@@ -1,0 +1,59 @@
+<div class="container">
+  <a class="btn" href="#"><small>Click!</small><span>もっと見る</span></a>
+</div>
+
+<style>
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a.btn {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    background-color: #DC6B8E;
+  }
+
+  .btn span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #fff;
+  }
+
+  .btn small {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: absolute;
+    top: -34px;
+    left: -34px;
+    width: 68px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #35332A;
+    border-radius: 50%;
+    background: #F0CA63;
+  }
+
+  a:hover {
+    box-shadow: 0 0 10px #35332A;
+    transition-delay: 0.3s;
+  }
+
+  a:hover small {
+    scale: 1.2;
+    transition-delay: 0.3s;
+  }
+
+</style>
